@@ -1,0 +1,20 @@
+<p align="center">
+    共<b>{$pageInfo.row_total}</b>条记录
+    这是第<b>{$pageInfo.page_start}</b> - <b>{$pageInfo.page_end}</b>条记录
+    <a href="{$url}?page=1">第一页</a>
+    {if $pageInfo.prev_page}
+         <a href='{$url}?page={$pageInfo.prev_page}'>上一页</a>
+    {else}
+         第一页
+    {/if}
+            
+    {if $pageInfo.next_page}
+         <a href='{$url}?page={$pageInfo.next_page}'>下一页</a>
+    {else}
+         最后一页
+    {/if}
+            
+     <a href='{$url}?page={$pageInfo.page_num}'>最后一页</a>
+     当前<b>{$pageInfo.current_page}/{$pageInfo.page_num}</b>页
+            
+</p>  
