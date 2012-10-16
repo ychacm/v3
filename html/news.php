@@ -14,7 +14,7 @@
     $('#tt').datagrid({
     title:'新闻内容',
     iconCls:'icon-save',
-    url:'../newsGet.php',
+    url:'newss.php?act=view',
     columns:[[
         {field:'newsId',title:'序号',width:80},
         {field:'newsTitle',title:'新闻标题',width:600},
@@ -53,7 +53,7 @@
        
     $.ajax({
      type:'POST',
-     url:'newsDel.php',
+     url:'newss.php?act=del',
      data:'id='+ids,
      dataType:'xml',
      success:function callback(){}
@@ -69,25 +69,19 @@
   }
 
 	});
-	$('#cc').combobox({
-		url:'../itemsGet.php',
-		valueField:'itemsId',
-		textField:'itemsName'
-		});
-		
-	
+
     </script>
 </head>
 <body >
 <table id="tt" class="easyui-datagrid" ></table>
 <div id="win" class="easyui-window" title="添加新闻" closed="true" style="width:700px;height:550px;padding:5px;">  
-   <form id="myForm"  name="myForm" action="newsSave.php" method="post">
+   <form id="myForm"  name="myForm" action="newss.php?act=save" method="post">
    	<p>新闻标题：<input type="text" name="title" style="width:400px;"></p>
-    <p>新闻类型：<input id="cc"  name="itemsId" class="easyui-combobox"   url="../itemsGet.php" valueField="itemsId" textField="itemsName" panelHeight="auto" style="width:150px;"></p>
+    <p>新闻类型：<input id="cc"  name="itemsId" class="easyui-combobox"   url="newss.php?act=item" valueField="itemsId" textField="itemsName" panelHeight="auto" style="width:150px;"></p>
 	<textarea id="TextArea1"  name="text" cols="20" rows="2" class="ckeditor"></textarea>
     	<div style="padding:5px; text-align:center">
         	<input type="submit" value="提交"  />
-            
+          <input name="act" type="hidden" value="save"/>
         </div>
    </form> 
 </div> 

@@ -15,7 +15,7 @@ class dow{
 	}
 	
 	function getListItem(){
-		$selectSQL="select * from file";
+		$selectSQL="select * from dow";
 		$db=new DB_MySQL;
 		$data=$db->fetch_all_array($selectSQL);
 		$db->close();

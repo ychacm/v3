@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-15 11:54:33
+<?php /* Smarty version Smarty-3.1.10, created on 2012-10-15 12:47:17
          compiled from "templates/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6023036105013fb379d1707-47396497%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'be439f82a4dbec61746f62a0df07c19a7eecd966' => 
     array (
       0 => 'templates/header.tpl',
-      1 => 1350299833,
+      1 => 1350305219,
       2 => 'file',
     ),
   ),
@@ -25,8 +25,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 				<link rel="stylesheet" type="text/css" href="css/gen.css">
         <link rel="stylesheet" type="text/css" href="css/hp.css">
-        <SCRIPT type=text/javascript src="http://www.magicyourlife101.com/js/jquery-1.5.js"></SCRIPT>
-<SCRIPT type=text/javascript src="http://www.magicyourlife101.com/js/donejquery.js"></SCRIPT>
+        <SCRIPT type=text/javascript src="js/jquery-1.5.js"></SCRIPT>
+<SCRIPT type=text/javascript src="js/donejquery.js"></SCRIPT>
   <script language="javascript"> 
          function document.onkeydown() 
          { 

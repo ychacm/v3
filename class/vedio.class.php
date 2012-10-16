@@ -15,7 +15,7 @@ class vedioFile{
 	}
 	
 	function getListItem(){
-		$selectSQL="select * from dow";
+		$selectSQL="select * from file";
 		$db=new DB_MySQL;
 		$data=$db->fetch_all_array($selectSQL);
 		$db->close();

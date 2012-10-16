@@ -4,8 +4,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 				<link rel="stylesheet" type="text/css" href="css/gen.css">
         <link rel="stylesheet" type="text/css" href="css/hp.css">
-        <SCRIPT type=text/javascript src="http://www.magicyourlife101.com/js/jquery-1.5.js"></SCRIPT>
-<SCRIPT type=text/javascript src="http://www.magicyourlife101.com/js/donejquery.js"></SCRIPT>
+        <SCRIPT type=text/javascript src="js/jquery-1.5.js"></SCRIPT>
+<SCRIPT type=text/javascript src="js/donejquery.js"></SCRIPT>
   <script language="javascript"> 
          function document.onkeydown() 
          { 

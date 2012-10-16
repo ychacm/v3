@@ -4,7 +4,7 @@
     $('#tt').datagrid({
 			title:'影音中心',
     		iconCls:'icon-save',
-    		url:'dowGet.php',
+    		url:'dows.php?act=view',
     		columns:[[
         	{field:'fileId',title:'序号',width:80},
         	{field:'fileName',title:'文件名',width:600}
@@ -31,15 +31,15 @@
     				for(;i<select.length;i++)
        		{
         			if(i==0)
-         			ids=select[i].newsId;
+         			ids=select[i].fileId;
        			else
-        				ids=ids+","+select[i].newsId;
+        				ids=ids+","+select[i].fileId;
        		}
     			}  
        
     		$.ajax({
      		type:'POST',
-     		url:'newsDel.php',
+     		url:'dows.php?act=del&',
      		data:'id='+ids,
      		dataType:'xml',
      		success:function callback(){}
@@ -58,12 +58,13 @@
 <body >
 <table id="tt" class="easyui-datagrid" ></table>
 <div id="win" class="easyui-window" title="添加新闻" closed="true" style="width:700px;height:250px;padding:5px;">  
-   <form id="myForm"  name="myForm" action="dowSave.php" enctype="multipart/form-data" method="post">
+   <form id="myForm"  name="myForm" action="dows.php?act=save" enctype="multipart/form-data" method="post">
    	<p>新闻标题：<input type="text" name="title" style="width:400px;"></p>
      <p>下载文件：<input type="file" name="dowfile" value="文件"></p>
 		<p>图片：<input type="file" name="photofile" value="图片"></p>
     	<div style="padding:5px; text-align:center">
         	<input type="submit" value="提交"  />
+          <input name="act" type="hidden" value="save"/>
         </div>
    </form> 
 </div> 

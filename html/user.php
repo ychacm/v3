@@ -16,7 +16,7 @@
     		$('#tt').datagrid({
     			title:'演说家',
     			iconCls:'icon-save',
-    			url:'userGet.php',
+    			url:'users.php?act=view',
     			columns:[[
         		{field:'ysjId',title:'序号',width:80},
         		{field:'ysjTitle',title:'标题',width:80}
@@ -43,15 +43,15 @@
     				for(;i<select.length;i++)
        		{
         		if(i==0)
-         		ids=select[i].userId;
+         		ids=select[i].ysjId;
        		else
-        			ids=ids+","+select[i].userId;
+        			ids=ids+","+select[i].ysjId;
        		}
     			}  
        
     		$.ajax({
      		type:'POST',
-     		url:'userDel.php',
+     		url:'users.php?act=del',
      		data:'id='+ids,
      		dataType:'xml',
      		success:function callback(){}
@@ -66,11 +66,6 @@
   }
 });
 
-	$('#cc').combobox({
-		url:'userItemGet.php',
-		valueField:'itemsId',
-		textField:'itemsName'
-		});
 		
 	
 	</script>
@@ -79,9 +74,9 @@
 <body>
 <table id="tt" class="easyui-datagrid" ></table>
 <div id="win" class="easyui-window" title="添加演说家" closed="true" style="width:700px;height:550px;padding:5px;">  
-   <form id="myForm"  name="myForm" enctype="multipart/form-data" action="userSave.php" method="post">
+   <form id="myForm"  name="myForm" enctype="multipart/form-data" action="users.php?act=save" method="post">
    	<p>新闻标题：<input type="text" name="name" style="width:250px;"></p>
-    <p>新闻类型：<input id="cc"  name="itemsId" class="easyui-combobox"   url="userItemGet.php" valueField="itemsId" textField="itemsName" panelHeight="auto" style="width:150px;"></p>
+    <p>新闻类型：<input id="cc"  name="itemsId" class="easyui-combobox"   url="users.php?act=item" valueField="itemsId" textField="itemsName" panelHeight="auto" style="width:150px;"></p>
  		<p>新闻图片：<input type="file" name="file" value="文件"></p>
 		新闻导航：
 		<textarea id="TextArea1"  name="text" cols="20" rows="2" class="ckeditor"></textarea>
@@ -89,6 +84,7 @@
 		<textarea id="TextArea2"  name="text2" cols="20" rows="2" class="ckeditor"></textarea>
     	<div style="padding:5px; text-align:center">
         	<input type="submit" value="提交"  />
+          <input name="act" type="hidden" value="save"/>
         </div>
    </form> 
 </div> 
