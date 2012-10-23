@@ -15,9 +15,15 @@
         <ul>
           	标题：{$vedio.fileName}
 			<a href="{$vedio.fileUrl}">dow</a>
-			<script type="text/javascript" src="jwplayer.js"></script>									
-			<video class="jwplayer" src="{$vedio.fileUrl}"
-			poster="preview.jpg"></video>
+			<div id="mediaplayer">JW Player goes here</div>
+			<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
+			<script type="text/javascript">
+			jwplayer("mediaplayer").setup({
+				flashplayer: "jwplayer/player.swf",
+				file: "pdf/2011.mp4",
+				image: "jwplayer/preview.jpg"
+			});
+	</script>
 		</ul>
     </div>
 </div>

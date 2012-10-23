@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-15 11:55:31
+<?php /* Smarty version Smarty-3.1.10, created on 2012-10-16 12:18:15
          compiled from "templates/vedio.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1488337875501d20467160f2-90950431%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e040f36f349b804379a981be335c42a132132cdc' => 
     array (
       0 => 'templates/vedio.tpl',
-      1 => 1350299825,
+      1 => 1350389892,
       2 => 'file',
     ),
   ),
@@ -46,10 +46,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
 			<a href="<?php echo $_smarty_tpl->tpl_vars['vedio']->value['fileUrl'];?>
 ">dow</a>
-			<script type="text/javascript" src="jwplayer.js"></script>									
-			<video class="jwplayer" src="<?php echo $_smarty_tpl->tpl_vars['vedio']->value['fileUrl'];?>
-"
-			poster="preview.jpg"></video>
+			<div id="mediaplayer">JW Player goes here</div>
+			<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
+			<script type="text/javascript">
+			jwplayer("mediaplayer").setup({
+				flashplayer: "jwplayer/player.swf",
+				file: "jwplayer/1.mov",
+				image: "jwplayer/preview.jpg"
+			});
+	</script>
 		</ul>
     </div>
 </div>
