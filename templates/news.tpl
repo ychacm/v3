@@ -2,7 +2,7 @@
 <div id="cen">
         	<div id="cenleft">
             	{include file="lefttop.html"}
-			<div id="leftNav"><div class="top">NEWS</div>
+				<div id="leftNav"><div class="top">NEWS</div>
 					<ul>
 						<li><a href="news.php?act=one">重要公告</a></li>
 						<li><a href="news.php?act=two">超越新闻</a></li>

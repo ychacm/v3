@@ -24,6 +24,7 @@ body{
 {
 	margin-left:250px;
 	font-size:22px;
+	list-style-type: none;
 }
 
 #top ul li.top  
@@ -35,6 +36,7 @@ body{
 	font-weight: bold;
 	text-align: center;
 	margin-top: 30px;
+	
 }
 #top ul li span
 {
@@ -92,24 +94,24 @@ body{
 	background-color:#08385B;
 }
 
-#cenleft1 dl{color:#fff; width:190px;padding:10px; margin-bottom:10px; }
+#cenleft1 dl{color:#fff; width:190px;padding:10px;height: 80px; }
 #cenleft1 dl dt{float:right; width:100px; height:25px; margin-top:8px;font-size:18px;color:#fff;}
 #cenleft1 dl dd.pic{ float:left;}
 #cenleft1 dl dd.text{ float:right; width:100px; font-size:14px; color:#09F;}
 #cenleft2 {height:135px; background:url(../images/logintop.gif)  0 0 no-repeat; border:1px solid #ccc;}
 #cenleft2 ul{ margin-top:25px; color:#999;}
 #cenleft2 ul li{list-style-type:none;}
-#cenleft3 {height:240px;}
+#cenleft3 {}
 
-#cenleft3 dl{width:190px; padding-top:35px; margin-bottom: 40px;}
-#cenleft3 dl dt{float:right; width:115px; height:25px;font-size:12px;}
-#cenleft3 dl dd.pic{ float:left;height:35px; margin-left:-20px; border:none;}
-#cenleft3 dl dd.text{float:right; width:115px; font-size:12px; }
+#cenleft3 dl{width:190px; padding-top:15px;height: 70px;}
+#cenleft3 dl dt{float:right; width:95px; font-size:12px;}
+#cenleft3 dl dd.pic{ float:left;height:35px; margin-left:20px; border:none;}
+#cenleft3 dl dd.text{float:right; width:95px; font-size:12px; }
 
 #cenleft3 ul{margin-top:30px;}
 #cenleft3 ul li{list-style-type:none;text-indent:30px;}
 #cenleft3 ul li .cc{margin-bottom:30px;}
-#cenleft3 .bb{border-bottom:1px solid #ccc;width:200px;}
+#cenleft3 .bb{border:1px solid #ccc;width:200px;}
 
 #cencen{width:600px; float:left;}
 #cencen1{height:360px; padding-top:2px; padding-left:2px;}
@@ -120,7 +122,7 @@ body{
 #cenright ul li{list-style-type:none;}
 #cenright .box{border:1px solid #9cf;height:600px;}
 
-#foot{border-top:2px solid #eee;height:35px; text-align:center; font-size:16px; line-height:20px;width:1022px;border:1px solid #9cf;}
+#foot{border-top:2px solid #eee;height:35px; text-align:center; font-size:16px; line-height:20px;width:1022px;}
 
 #cenright1{float:right;width:810px;}
 #cenright1 .nav{display:inline; float:left;width:100%;background:url("../images/bg.jpg") repeat-x;margin-top:1px;}

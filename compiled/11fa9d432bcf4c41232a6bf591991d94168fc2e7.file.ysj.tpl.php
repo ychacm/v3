@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-15 11:56:50
+<?php /* Smarty version Smarty-3.1.10, created on 2012-10-30 12:41:14
          compiled from "templates/ysj.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1515148348501ce7d9517026-15335804%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '11fa9d432bcf4c41232a6bf591991d94168fc2e7' => 
     array (
       0 => 'templates/ysj.tpl',
-      1 => 1350299823,
+      1 => 1351252822,
       2 => 'file',
     ),
   ),
@@ -50,11 +50,8 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 						<div class="title"><?php echo $_smarty_tpl->tpl_vars['ysj']->value['ysjTitle'];?>
 <?php echo $_smarty_tpl->tpl_vars['ysj']->value['navText'];?>
 </div>
-							
 								<div class="text">	<?php echo $_smarty_tpl->tpl_vars['ysj']->value['ysjText'];?>
 </div>
-									
-												
 	                </ul>
             </div>
 </div>

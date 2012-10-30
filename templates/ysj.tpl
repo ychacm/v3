@@ -18,10 +18,7 @@
 					<div id="ysj">
           				<img src="{$ysj.imgurl}" width="200" height="350">
 						<div class="title">{$ysj.ysjTitle}{$ysj.navText}</div>
-							
 								<div class="text">	{$ysj.ysjText}</div>
-									
-												
 	                </ul>
             </div>
 </div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-09-29 09:29:04
+<?php /* Smarty version Smarty-3.1.10, created on 2012-10-30 11:43:58
          compiled from "templates/news.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2445754995014a90ccb1694-79711215%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '179ab9abe88c4bec6ab419259935a1a92bd14330' => 
     array (
       0 => 'templates/news.tpl',
-      1 => 1348649164,
+      1 => 1351252724,
       2 => 'file',
     ),
   ),
@@ -29,10 +29,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         	<div id="cenleft">
             	<?php echo $_smarty_tpl->getSubTemplate ("lefttop.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-			<div id="leftNav"><div class="top">NEWS</div>
+				<div id="leftNav"><div class="top">NEWS</div>
 					<ul>
-						<li><a href="newsList.php">重要公告</a></li>
-						<li><a href="newsList1.php">超越新闻</a></li>
+						<li><a href="news.php?act=one">重要公告</a></li>
+						<li><a href="news.php?act=two">超越新闻</a></li>
 					</ul>
 				</div>
 				<?php echo $_smarty_tpl->getSubTemplate ("leftfoot.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>

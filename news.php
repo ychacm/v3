@@ -13,7 +13,7 @@ if($_REQUEST['act']=='one'){
 
  	if($products){
           $smarty->assign("tableName","新闻列表");
-          $smarty->assign("url","kcList.php");
+          $smarty->assign("url","news.php");
           $smarty->assign("products",$products);
           $smarty->assign("pageInfo",$pageInfo);
     }else{
@@ -34,7 +34,7 @@ if($_REQUEST['act']=='two'){
 
  	if($products){
           $smarty->assign("tableName","超越新闻");
-          $smarty->assign("url","kcList.php");
+          $smarty->assign("url","news.php");
           $smarty->assign("products",$products);
           $smarty->assign("pageInfo",$pageInfo);
     }else{

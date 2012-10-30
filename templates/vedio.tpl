@@ -20,7 +20,7 @@
 			<script type="text/javascript">
 			jwplayer("mediaplayer").setup({
 				flashplayer: "jwplayer/player.swf",
-				file: "pdf/2011.mp4",
+				file: "pdf/1.mov",
 				image: "jwplayer/preview.jpg"
 			});
 	</script>

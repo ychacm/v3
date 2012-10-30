@@ -3,7 +3,7 @@
             	<div id="cenleft1">
 				
                 	<dl>
-                    	<dt><a href="vedio.php?act=one">精彩视频</dt>
+                    	<dt><a href="vedio.php?act=one">精彩视频</a></dt>
                         <dd class="pic"><img src="images/1.png"></dd>
                         <dd class="text">影音播放中心</dd>
                     </dl>
@@ -19,7 +19,7 @@
                     </dl>
                 </div>
                 {include file="lefttop.html"}
-			          {include file="leftfoot.html"}
+			    {include file="leftfoot.html"}
             </div>
             <div id="cencen">
             	   <div id="container">	

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-16 12:18:15
+<?php /* Smarty version Smarty-3.1.10, created on 2012-10-26 11:49:11
          compiled from "templates/vedio.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1488337875501d20467160f2-90950431%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e040f36f349b804379a981be335c42a132132cdc' => 
     array (
       0 => 'templates/vedio.tpl',
-      1 => 1350389892,
+      1 => 1351252127,
       2 => 'file',
     ),
   ),
@@ -51,7 +51,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<script type="text/javascript">
 			jwplayer("mediaplayer").setup({
 				flashplayer: "jwplayer/player.swf",
-				file: "jwplayer/1.mov",
+				file: "pdf/1.mov",
 				image: "jwplayer/preview.jpg"
 			});
 	</script>

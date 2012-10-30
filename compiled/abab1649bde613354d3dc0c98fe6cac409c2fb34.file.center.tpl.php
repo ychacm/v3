@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-15 11:54:33
+<?php /* Smarty version Smarty-3.1.10, created on 2012-10-30 12:34:34
          compiled from "templates/center.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6303865475013fb379dba34-40683473%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'abab1649bde613354d3dc0c98fe6cac409c2fb34' => 
     array (
       0 => 'templates/center.tpl',
-      1 => 1350299836,
+      1 => 1351600473,
       2 => 'file',
     ),
   ),
@@ -37,7 +37,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             	<div id="cenleft1">
 				
                 	<dl>
-                    	<dt><a href="vedio.php?act=one">精彩视频</dt>
+                    	<dt><a href="vedio.php?act=one">精彩视频</a></dt>
                         <dd class="pic"><img src="images/1.png"></dd>
                         <dd class="text">影音播放中心</dd>
                     </dl>
@@ -54,7 +54,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
                 </div>
                 <?php echo $_smarty_tpl->getSubTemplate ("lefttop.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-			          <?php echo $_smarty_tpl->getSubTemplate ("leftfoot.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
+			    <?php echo $_smarty_tpl->getSubTemplate ("leftfoot.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
             </div>
             <div id="cencen">
