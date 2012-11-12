@@ -36,4 +36,5 @@
 			  <li class="pic"><img src="images/top.gif"/></li>
 			  <li class="top"><a href="about.php" >关于我们</a><br/><span id="topspan" >ABOUT US</span></li>
 		  </ul>
+         <div class="topright"><a>home  </a><a>English  </a><a>Contact us </a></div>
         </div>

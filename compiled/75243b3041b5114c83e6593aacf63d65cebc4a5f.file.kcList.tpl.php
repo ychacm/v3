@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-15 11:58:36
+<?php /* Smarty version Smarty-3.1.10, created on 2012-11-12 11:21:32
          compiled from "templates/kcList.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1960849038501d047c7a0946-50038919%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '75243b3041b5114c83e6593aacf63d65cebc4a5f' => 
     array (
       0 => 'templates/kcList.tpl',
-      1 => 1350299833,
+      1 => 1352719291,
       2 => 'file',
     ),
   ),
@@ -33,7 +33,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div id="leftNav"><div class="top">COURSE</div>
 					<ul>
 						<li><a href="kc.php?act=one">大师课程</a></li>
-						<li><a href="kc.php?act=two">总裁必上的7堂课</a></li>
+						<li><a href="kc.php?act=two">总经理必修课</a></li>
 						<li><a href="kc.php?act=tree">特别课程</a></li>
 					</ul>
 				</div>
@@ -81,7 +81,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['record']['last']       = ($_
 </a></dt>
 				<dd class="pic"><img src="<?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['imgurl'];?>
 " width="200" height="160"></dd>
-				<dd class="text"><a href="kc.php?act=view&classId=<?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['classId'];?>
+				<dd class="text"><a  href="kc.php?act=view&classId=<?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['classId'];?>
 "><?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['navText'];?>
 </a></dd>
 			</dl>

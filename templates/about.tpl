@@ -47,7 +47,7 @@
             <img src="images/nav.jpg">
              <div class="nav"><h1><span>首页</span>新闻中心</h1></div>
                 <ul>
-<p>&nbsp; &nbsp; &nbsp; &nbsp;百联国际愿景：</p>
+<p style="font-family: 黑体">&nbsp; &nbsp; &nbsp; &nbsp;百联国际愿景：</p>
 <p>&nbsp; &nbsp; &nbsp; &nbsp;成为东南亚最顶尖的培训教育集团</p>
 </br>
 <p>&nbsp; &nbsp; &nbsp; &nbsp;百联国际使命：</p>

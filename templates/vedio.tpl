@@ -12,16 +12,17 @@
     <div id="cenright1">
         {include file="navtop.html"}
         <div class="nav"><h1><span>首页</span>新闻中心</h1></div>
-        <ul>
-          	标题：{$vedio.fileName}
-			<a href="{$vedio.fileUrl}">dow</a>
-			<div id="mediaplayer">JW Player goes here</div>
+        <ul style="text-align:center;">
+          	{$vedio.fileName}
+			<div id="mediaplayer" style="text-align:center;">JW Player goes here</div>
 			<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
 			<script type="text/javascript">
 			jwplayer("mediaplayer").setup({
 				flashplayer: "jwplayer/player.swf",
 				file: "pdf/1.mov",
-				image: "jwplayer/preview.jpg"
+				image: "jwplayer/preview.jpg",
+				width:"800",
+				height:"430"
 			});
 	</script>
 		</ul>

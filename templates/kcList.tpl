@@ -5,7 +5,7 @@
 			<div id="leftNav"><div class="top">COURSE</div>
 					<ul>
 						<li><a href="kc.php?act=one">大师课程</a></li>
-						<li><a href="kc.php?act=two">总裁必上的7堂课</a></li>
+						<li><a href="kc.php?act=two">总经理必修课</a></li>
 						<li><a href="kc.php?act=tree">特别课程</a></li>
 					</ul>
 				</div>
@@ -24,7 +24,7 @@
 			<dl>
 				<dt><a href="kc.php?act=view&classId={$products[record].classId}" style="color:red">{$products[record].classTitle}</a></dt>
 				<dd class="pic"><img src="{$products[record].imgurl}" width="200" height="160"></dd>
-				<dd class="text"><a href="kc.php?act=view&classId={$products[record].classId}">{$products[record].navText}</a></dd>
+				<dd class="text"><a  href="kc.php?act=view&classId={$products[record].classId}">{$products[record].navText}</a></dd>
 			</dl>
             {sectionelse}
                 <tr><td colspan="5"></td></tr>

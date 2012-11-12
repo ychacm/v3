@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-30 12:34:34
+<?php /* Smarty version Smarty-3.1.10, created on 2012-11-03 10:41:49
          compiled from "templates/center.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6303865475013fb379dba34-40683473%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'abab1649bde613354d3dc0c98fe6cac409c2fb34' => 
     array (
       0 => 'templates/center.tpl',
-      1 => 1351600473,
+      1 => 1351939307,
       2 => 'file',
     ),
   ),
@@ -308,23 +308,9 @@ $_smarty_tpl->tpl_vars['ysj']->_loop = true;
 		          	</ul>
 		<div class="box">
       <p style="border:1px solid #ddd;height:60px;line-height:60px;">海洋之家总经理俱乐部</p>
-      <p style="border:1px solid #ddd;height:60px;line-height:60px;">百领国际学员</p>
-      <ul>
-        <p>百连新天地学员</p>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-      </ul>
-    </div>
+      <p style="border:1px solid #ddd;height:60px;line-height:60px;margin-bottom:50px;">百领国际学员</p>
+       <img src="images/list.png">
+      </div>
 
             </div>
         </div><?php }} ?>

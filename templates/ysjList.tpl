@@ -19,7 +19,7 @@
 						<dl>
 								<dt>{$products[record].ysjTitle}</dt>
 								<dd class="pic"><img src="{$products[record].imgurl}" width="120" height="160"></dd>
-								<dd class="text"><a href="ysj.php?act=view&ysjId={$products[record].ysjId}">{$products[record].navText}</a></dd>
+								<dd class="text"><a href="ysj.php?act=view&ysjId={$products[record].ysjId}" style="color:#333;font-size:16px;">{$products[record].navText}</a></dd>
 						</dl>
 		 				{sectionelse}
 			                <tr><td colspan="5"></td></tr>

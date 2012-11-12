@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-26 11:49:11
+<?php /* Smarty version Smarty-3.1.10, created on 2012-11-12 12:09:33
          compiled from "templates/vedio.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1488337875501d20467160f2-90950431%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e040f36f349b804379a981be335c42a132132cdc' => 
     array (
       0 => 'templates/vedio.tpl',
-      1 => 1351252127,
+      1 => 1352722171,
       2 => 'file',
     ),
   ),
@@ -41,18 +41,18 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         <?php echo $_smarty_tpl->getSubTemplate ("navtop.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
         <div class="nav"><h1><span>首页</span>新闻中心</h1></div>
-        <ul>
-          	标题：<?php echo $_smarty_tpl->tpl_vars['vedio']->value['fileName'];?>
+        <ul style="text-align:center;">
+          	<?php echo $_smarty_tpl->tpl_vars['vedio']->value['fileName'];?>
 
-			<a href="<?php echo $_smarty_tpl->tpl_vars['vedio']->value['fileUrl'];?>
-">dow</a>
-			<div id="mediaplayer">JW Player goes here</div>
+			<div id="mediaplayer" style="text-align:center;">JW Player goes here</div>
 			<script type="text/javascript" src="jwplayer/jwplayer.js"></script>
 			<script type="text/javascript">
 			jwplayer("mediaplayer").setup({
 				flashplayer: "jwplayer/player.swf",
 				file: "pdf/1.mov",
-				image: "jwplayer/preview.jpg"
+				image: "jwplayer/preview.jpg",
+				width:"800",
+				height:"430"
 			});
 	</script>
 		</ul>

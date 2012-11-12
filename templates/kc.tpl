@@ -5,7 +5,7 @@
 			<div id="leftNav"><div class="top">NEWS</div>
 					<ul>
 						<li><a href="kc.php?act=one">大师课程</a></li>
-						<li><a href="kc.php?act=two">总裁必上的7堂课</a></li>
+						<li><a href="kc.php?act=two">总经理必修课</a></li>
 						<li><a href="kc.php?act=tree">特别课程</a></li>
 					</ul>
 				</div>

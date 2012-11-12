@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-16 12:14:18
+<?php /* Smarty version Smarty-3.1.10, created on 2012-11-12 12:01:17
          compiled from "templates/vedioList.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2037507162501d1f16cdce67-84392397%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6881efcba260b4f462a6b03d4e4313062d43bf74' => 
     array (
       0 => 'templates/vedioList.tpl',
-      1 => 1350299824,
+      1 => 1352721675,
       2 => 'file',
     ),
   ),
@@ -43,7 +43,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			
              <div class="nav"><h1><span>首页</span>影音中心</h1></div>
 						<div class="vedio">
-                <ul>
+                <ul style="margin:10px">
 		 				<?php if (isset($_smarty_tpl->tpl_vars['smarty']->value['section']['record'])) unset($_smarty_tpl->tpl_vars['smarty']->value['section']['record']);
 $_smarty_tpl->tpl_vars['smarty']->value['section']['record']['name'] = 'record';
 $_smarty_tpl->tpl_vars['smarty']->value['section']['record']['loop'] = is_array($_loop=$_smarty_tpl->tpl_vars['products']->value) ? count($_loop) : max(0, (int)$_loop); unset($_loop);
@@ -70,7 +70,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['record']['last']       = ($_
 ?>
 		 				<li><img src="<?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['imgurl'];?>
 " widht="80" height="120"><a href="vedio.php?act=view&fileId=<?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['fileId'];?>
-"><p><?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['fileName'];?>
+"><p style="color:#333"><?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['fileName'];?>
 </p></a></li>
 		 						 				            <?php endfor; else: ?>
                 <tr><td colspan="5"></td></tr>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-15 12:47:17
+<?php /* Smarty version Smarty-3.1.10, created on 2012-11-02 11:15:32
          compiled from "templates/header.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:6023036105013fb379d1707-47396497%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'be439f82a4dbec61746f62a0df07c19a7eecd966' => 
     array (
       0 => 'templates/header.tpl',
-      1 => 1350305219,
+      1 => 1351854930,
       2 => 'file',
     ),
   ),
@@ -57,4 +57,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			  <li class="pic"><img src="images/top.gif"/></li>
 			  <li class="top"><a href="about.php" >关于我们</a><br/><span id="topspan" >ABOUT US</span></li>
 		  </ul>
-        </div><?php }} ?>
+         <div class="topright"><a>home  </a><a>English  </a><a>Contact us </a></div>
+        </div>
+<?php }} ?>

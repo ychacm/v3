@@ -14,9 +14,9 @@
             {include file="navtop.html"}
              <div class="nav"><h1><span>首页</span>新闻中心</h1></div>
                 <ul>
-          				标题：{$news.newsTitle}
-									文本: {$news.newsText}
-									时间:{$news.newsTime}
+          				<h3 style="text-align:center; height:80px;">{$news.newsTitle}</h3>
+						<div style="width:770px;margin-left:20px;font-size:14pt;">{$news.newsText}</div>
+						时间:{$news.newsTime}
                 </ul>
             </div>
 </div>

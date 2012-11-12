@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-26 11:35:09
+<?php /* Smarty version Smarty-3.1.10, created on 2012-11-12 11:21:02
          compiled from "templates/kc.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:464734884501d0516b705a6-84435390%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'a122f34d97814b588673c27d8c950a7552a627b0' => 
     array (
       0 => 'templates/kc.tpl',
-      1 => 1350299833,
+      1 => 1352461241,
       2 => 'file',
     ),
   ),
@@ -32,7 +32,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 			<div id="leftNav"><div class="top">NEWS</div>
 					<ul>
 						<li><a href="kc.php?act=one">大师课程</a></li>
-						<li><a href="kc.php?act=two">总裁必上的7堂课</a></li>
+						<li><a href="kc.php?act=two">总经理必修课</a></li>
 						<li><a href="kc.php?act=tree">特别课程</a></li>
 					</ul>
 				</div>

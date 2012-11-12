@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-15 11:56:35
+<?php /* Smarty version Smarty-3.1.10, created on 2012-11-12 11:43:52
          compiled from "templates/ysjList.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1479089995501ce710ad9a42-13886476%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'e185064e18380512af7f0fa497f118b8661191d8' => 
     array (
       0 => 'templates/ysjList.tpl',
-      1 => 1350299823,
+      1 => 1352720629,
       2 => 'file',
     ),
   ),
@@ -74,7 +74,7 @@ $_smarty_tpl->tpl_vars['smarty']->value['section']['record']['last']       = ($_
 								<dd class="pic"><img src="<?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['imgurl'];?>
 " width="120" height="160"></dd>
 								<dd class="text"><a href="ysj.php?act=view&ysjId=<?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['ysjId'];?>
-"><?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['navText'];?>
+" style="color:#333;font-size:16px;"><?php echo $_smarty_tpl->tpl_vars['products']->value[$_smarty_tpl->getVariable('smarty')->value['section']['record']['index']]['navText'];?>
 </a></dd>
 						</dl>
 		 				<?php endfor; else: ?>

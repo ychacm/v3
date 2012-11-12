@@ -49,6 +49,19 @@ body{
 	width: 21px;
 	float: left;
 }
+
+#top .topright{
+	border: 1px solid #ddd;
+	background-color: #ddd;
+	height: 25px;
+	line-height: 25px;
+	text-indent: 10px;
+	width:180px;
+	float: right;
+	margin-top:30px;
+}
+
+
 #nav
 { 
 	height:226px; 
@@ -104,14 +117,14 @@ body{
 #cenleft3 {}
 
 #cenleft3 dl{width:190px; padding-top:15px;height: 70px;}
-#cenleft3 dl dt{float:right; width:95px; font-size:12px;}
+#cenleft3 dl dt{float:right; width:95px; font-size:14px;}
 #cenleft3 dl dd.pic{ float:left;height:35px; margin-left:20px; border:none;}
-#cenleft3 dl dd.text{float:right; width:95px; font-size:12px; }
+#cenleft3 dl dd.text{float:right; width:95px; font-size:14px; }
 
 #cenleft3 ul{margin-top:30px;}
 #cenleft3 ul li{list-style-type:none;text-indent:30px;}
 #cenleft3 ul li .cc{margin-bottom:30px;}
-#cenleft3 .bb{border:1px solid #ccc;width:200px;}
+#cenleft3 .bb{border-top:1px solid #ddd;width:200px;}
 
 #cencen{width:600px; float:left;}
 #cencen1{height:360px; padding-top:2px; padding-left:2px;}
@@ -125,7 +138,18 @@ body{
 #foot{border-top:2px solid #eee;height:35px; text-align:center; font-size:16px; line-height:20px;width:1022px;}
 
 #cenright1{float:right;width:810px;}
-#cenright1 .nav{display:inline; float:left;width:100%;background:url("../images/bg.jpg") repeat-x;margin-top:1px;}
+
+#cenright1 .nav{
+	display:inline; 
+	float:left;
+	width:100%;
+	background:url("../images/12.gif") repeat-x;
+	height: 35px;
+	margin-top:1px;
+	color:#aaa;
+
+}
+
 #cenright1 .nav h1{height:40px;line-height:40px;text-indent:10px; width:810px;float:left;font-size:18px;}
 #cenright1 .nav h1 span{float:right; display:inline;}
 
@@ -144,6 +168,7 @@ body{
 #kc dl dt a{font-color:#dc143c;}
 #kc dl dd.pic{float:left;height:35px;margin:10px;}
 #kc dl dd.text{float:right; width:470px; font-size:14px;}
+#kc dl dd.text a{color:#333;font-size: 16px;}
 
 #ysj .title{float:right;width:500px;height:200px;padding-top:150px;}
 #ysj .text{}
@@ -153,7 +178,8 @@ body{
 #cenright1 .dow ul li img{float:left;}
 
 #cenright1 .vedio ul{list-style-type:none;}
-#cenright1 .vedio ul li{float:left;}
+#cenright1 .vedio ul li{float:left; margin: 10px; text-align: center;color: #333;}
+
 
 #cenright1 ul li h1{height:35px;line-height:35px;text-indent:10px; width:810px;float:left;font-size:18px;}
 #cenright1 ul li h1 span{float:right; display:inline;}
@@ -161,16 +187,16 @@ body{
 
 #box{width:350px; height:180px;}
 #tab_nav{margin:0; padding:0; height:25px; line-height:24px;}
-#tab_nav li{float:left; margin:0 3px; list-style:none; border:1px solid #9cf; border-bottom:none; height:24px; width:60px; text-align:center; background:#FFF;}
+#tab_nav li{float:left; margin:0 3px; list-style:none; border-bottom:none; height:24px; width:60px; text-align:center; background:#FFF;}
 
 #tab_content{width:350px; height:150px; border:1px solid #9cf; background:#FFF; overflow:hidden;}
 #t_1,#t_2,#t_3{width:100%; height:273px;}
 
-#leftNav{width:200px;margin-top:10px;background:url("../images/bg.jpg") repeat-x}
+#leftNav{width:200px;margin-top:10px;background:url("../images/12.gif") repeat-x}
 #leftNav .top{border-bottom:1px solid #ccc;background:url("../images/sub03_12.png") no-repeat;text-indent:100px;line-height:65px;height:65px;}
 #leftNav ul{margin:0;padding:0;}
 #leftNav ul li{border-bottom:1px solid #ccc;text-align:center;height:35px;line-height:35px;list-style-image:url("detailtop2.gif");list-style-type:none;}
-
+#leftNav ul li a:hover{background-color:#ccc;}
 a:link
 {
 	text-decoration: none;

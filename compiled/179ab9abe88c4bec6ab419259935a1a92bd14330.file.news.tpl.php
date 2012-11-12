@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-30 11:43:58
+<?php /* Smarty version Smarty-3.1.10, created on 2012-11-02 13:24:43
          compiled from "templates/news.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:2445754995014a90ccb1694-79711215%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '179ab9abe88c4bec6ab419259935a1a92bd14330' => 
     array (
       0 => 'templates/news.tpl',
-      1 => 1351252724,
+      1 => 1351862681,
       2 => 'file',
     ),
   ),
@@ -43,11 +43,11 @@ $_valid = $_smarty_tpl->decodeProperties(array (
 
              <div class="nav"><h1><span>首页</span>新闻中心</h1></div>
                 <ul>
-          				标题：<?php echo $_smarty_tpl->tpl_vars['news']->value['newsTitle'];?>
-
-									文本: <?php echo $_smarty_tpl->tpl_vars['news']->value['newsText'];?>
-
-									时间:<?php echo $_smarty_tpl->tpl_vars['news']->value['newsTime'];?>
+          				<h3 style="text-align:center; height:80px;"><?php echo $_smarty_tpl->tpl_vars['news']->value['newsTitle'];?>
+</h3>
+						<div style="width:770px;margin-left:20px;font-size:14pt;"><?php echo $_smarty_tpl->tpl_vars['news']->value['newsText'];?>
+</div>
+						时间:<?php echo $_smarty_tpl->tpl_vars['news']->value['newsTime'];?>
 
                 </ul>
             </div>

@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-09-29 09:10:27
+<?php /* Smarty version Smarty-3.1.10, created on 2012-11-09 11:53:30
          compiled from "templates/dowList.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:1386686527501d0bb9f0fcf6-90941059%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     '6daf2637ac3c0deadc10b6e1a2df41f3b03edfe4' => 
     array (
       0 => 'templates/dowList.tpl',
-      1 => 1348649142,
+      1 => 1350299834,
       2 => 'file',
     ),
   ),
@@ -29,10 +29,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
         	<div id="cenleft">
             	<?php echo $_smarty_tpl->getSubTemplate ("lefttop.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>
 
-			<div id="leftNav"><div class="top">NEWS</div>
+			<div id="leftNav"><div class="top">DOWNLOAD</div>
 					<ul>
-						<li><a href="dowList.php">课程ppt</a></li>
-						<li><a href="dowList1.php">媒体资料</a></li>
+						<li><a href="dow.php?act=one">课件ppt</a></li>
+						<li><a href="dow.php?act=two">媒体资料</a></li>
 						</ul>
 				</div>
 			<?php echo $_smarty_tpl->getSubTemplate ("leftfoot.html", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, null, null, array(), 0);?>

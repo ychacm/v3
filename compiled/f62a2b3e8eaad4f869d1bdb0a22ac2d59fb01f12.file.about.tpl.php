@@ -1,4 +1,4 @@
-<?php /* Smarty version Smarty-3.1.10, created on 2012-10-15 11:59:17
+<?php /* Smarty version Smarty-3.1.10, created on 2012-11-12 11:18:50
          compiled from "templates/about.tpl" */ ?>
 <?php /*%%SmartyHeaderCode:13705989450444ec928aab8-30473126%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
@@ -7,7 +7,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'f62a2b3e8eaad4f869d1bdb0a22ac2d59fb01f12' => 
     array (
       0 => 'templates/about.tpl',
-      1 => 1350299837,
+      1 => 1352719128,
       2 => 'file',
     ),
   ),
@@ -69,7 +69,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
             <img src="images/nav.jpg">
              <div class="nav"><h1><span>首页</span>新闻中心</h1></div>
                 <ul>
-<p>&nbsp; &nbsp; &nbsp; &nbsp;百联国际愿景：</p>
+<p style="font-family: 黑体">&nbsp; &nbsp; &nbsp; &nbsp;百联国际愿景：</p>
 <p>&nbsp; &nbsp; &nbsp; &nbsp;成为东南亚最顶尖的培训教育集团</p>
 </br>
 <p>&nbsp; &nbsp; &nbsp; &nbsp;百联国际使命：</p>

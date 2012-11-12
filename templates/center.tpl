@@ -206,23 +206,9 @@ width:605px;">
 		          	</ul>
 		<div class="box">
       <p style="border:1px solid #ddd;height:60px;line-height:60px;">海洋之家总经理俱乐部</p>
-      <p style="border:1px solid #ddd;height:60px;line-height:60px;">百领国际学员</p>
-      <ul>
-        <p>百连新天地学员</p>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-        <li>阿猪</li>
-      </ul>
-    </div>
+      <p style="border:1px solid #ddd;height:60px;line-height:60px;margin-bottom:50px;">百领国际学员</p>
+       <img src="images/list.png">
+      </div>
 
             </div>
         </div>
